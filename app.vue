@@ -12,7 +12,7 @@ const words = computed(() => q.value ? search(q.value).map(word => mark(word, q.
     <NuxtRouteAnnouncer />
     <h1>partial-text-match</h1>
     <p>
-      A simple partial text matching and highlighting with `&lt;mark&gt;` tag
+      A simple partial text matching and highlighting with <mark>`&lt;mark&gt;`</mark> tag
     </p>
     <p>
       <strong>GitHub:</strong> <a href="https://github.com/shuuji3/partial-text-match">shuuji3/partial-text-match</a>

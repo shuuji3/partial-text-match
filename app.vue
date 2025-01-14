@@ -30,8 +30,6 @@ const words = computed(() => q.value ? search(q.value).map(word => mark(word, q.
 </template>
 
 <style>
-@import url('@picocss/pico/css/pico.classless.amber.css');
-
 mark {
   padding: 0;
 }

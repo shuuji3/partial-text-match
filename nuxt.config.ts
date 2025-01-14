@@ -5,4 +5,5 @@ export default defineNuxtConfig({
   app: {
     rootTag: 'main',
   },
+  css: ['@picocss/pico/css/pico.classless.amber.css'],
 })
